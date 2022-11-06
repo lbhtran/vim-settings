@@ -1,3 +1,6 @@
 require("alex.packer")
 require("alex.set")
 require("alex.remap")
+require("alex.lualine")
+require("alex.telescope")
+require("alex.doge")

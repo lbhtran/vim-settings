@@ -11,7 +11,7 @@ require("nvim-tree").setup({
 vim.opt.guicursor = ""
 vim.g.mapleader = " "
 
-vim.opt.clipboard = 'unnamedplus'
+vim.opt.clipboard = "unnamedplus"
 
 vim.opt.nu = true
 vim.opt.relativenumber = true

@@ -2,11 +2,18 @@ local nnoremap = require("alex.keymap").nnoremap
 local vnoremap = require("alex.keymap").vnoremap
 
 nnoremap("<Space>", "<Nop>")
+
+-- NvimTree
 nnoremap("<leader>pv", "<cmd>Ex<CR>")
 nnoremap("<leader>po", "<cmd>NvimTreeToggle<CR>")
 
+-- NERDCommenter
 nnoremap("<leader>/", "<Plug>NERDCommenterToggle")
 vnoremap("<leader>/", "<Plug>NERDCommenterToggle<CR>gv")
+
+-- Neogen
+nnoremap("<leader>nf", ":lua require('neogen').generate()<CR>")
+--nnoremap("<leader>nf", "<Plug>Neogen<CR>")
 
 
 local keyset = vim.keymap.set
